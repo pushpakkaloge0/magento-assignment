@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="AppendOnSale" type="PushpakMods\Price60\Plugin\AppendOnSale" sortOrder="10" disabled="false"/>  
+        <plugin name="ChangeProductName" type="PushpakMods\Price60\Plugin\ChangeProductName" sortOrder="20" disabled="false"/>
+    </type>
+    <type name="\Magento\Theme\Block\Html\Footer">
+       <plugin name="ChangeCopyrightText" type="PushpakMods\Price60\Plugin\ChangeCopyrightText" sortOrder="20" disabled="false"/>
+    </type>
+    <type name="\Magento\Theme\Block\Html\Header">
+       <plugin name="ChangeWelcomeText" type="PushpakMods\Price60\Plugin\ChangeWelcomeText" sortOrder="30" disabled="false"/>
+    </type>
+     <type name="\Magento\Theme\Block\Html\Breadcrumbs">
+       <plugin name="appendHummingbird" type="PushpakMods\Price60\Plugin\AppendHummingbirdText" sortOrder="40" disabled="false"/>
+    </type>
+    <type name="Magento\Catalog\Block\Product\View\Description">
+       <plugin name="ChangeDescriptionText" type="PushpakMods\Price60\Plugin\ChangeDescriptionText" sortOrder="50" disabled="false"/>
+    </type>
+    
+</config>
