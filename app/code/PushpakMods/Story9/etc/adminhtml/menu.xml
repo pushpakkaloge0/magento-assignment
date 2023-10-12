@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="PushpakMods_Story9::custom_menu" title="Custom Menu" module="PushpakMods_Story9" sortOrder="200" resource="PushpakMods_Story9::custom_menu" />
+        <add id="PushpakMods_Story9::custom_submenu" title="Custom Submenu" module="PushpakMods_Story9" sortOrder="10" parent="PushpakMods_Story9::custom_menu" action="pushpakmods_story9/customcontroller/action" resource="PushpakMods_Story9::custom_submenu"/>
+    </menu>
+</config>

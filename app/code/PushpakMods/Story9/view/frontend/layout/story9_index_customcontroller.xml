@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="PushpakMods\Story9\Block\ShowText" name="story9.showtext" template="PushpakMods_Story9::Text.phtml"  />
+        </referenceContainer>
+         <referenceBlock name="myblock">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">PushpakMods_Story9::Text.phtml</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
