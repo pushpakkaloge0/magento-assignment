@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="table1" comment="Table 1">
+        <column name="id" xsi:type="int" unsigned="true" padding="5" nullable="false" comment="Id column"/>
+        <column name="name" xsi:type="varchar" length="10" default="name" nullable="false" comment="Name column"/>
+        <column name="description" xsi:type="text"   comment="Description column"/>
+        <column name="is_enabled" xsi:type="boolean"  default="0" nullable="false" comment="Is enabled column"/>
+        <column name="price" xsi:type="decimal" precision="5" scale="4" default="0.0" nullable="false" comment="Price column"/> 
+        <column name="created_on" xsi:type="timestamp" />
+        <column name="updated_on" xsi:type="timestamp" on_update="true"/>
+            <constraint xsi:type="primary" referenceId="PRIMARY">
+                <column name="id"/>
+            </constraint>
+    </table>
+
+    <table name="table2" comment="Table 1">
+        <column name="id" xsi:type="int" unsigned="true" padding="5" nullable="false" comment="Id column"/>
+        <column name="name" xsi:type="varchar" length="10" default="name" nullable="false" comment="Name column"/>
+        <constraint  xsi:type="foreign" referenceId="FOREIGN"  column="id" referenceTable="table1" referenceColumn="id"/>
+    </table>
+</schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <table name="table1" comment="Table 1" >
+    <column name="id" xsi:type="int" nullable="false"/>    
+    <column name="Name" xsi:type="varchar" />
+    <column name="age" xsi:type="int" />
+
+
+    <constraint xsi:type="primary" referenceId="PRIMARY">
+        <column name="id"/>
+    </constraint>
+</table> -->

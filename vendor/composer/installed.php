@@ -880,6 +880,15 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'mage2tv/magento-cache-clean' => array(
+            'pretty_version' => '1.0.52',
+            'version' => '1.0.52.0',
+            'reference' => '95fd510a820204f3a2dd3efb203b1740637df2b2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mage2tv/magento-cache-clean',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'magento-hackathon/magento-composer-installer' => array(
             'dev_requirement' => false,
             'replaced' => array(

@@ -24,9 +24,8 @@ class ThreeColumnController extends Action
 
         $page = $this->resultPageFactory->create();
         $page->getConfig()->setPageLayout('1columns');
-        return $page;
-
         
+        return $page;
     }
 }
 

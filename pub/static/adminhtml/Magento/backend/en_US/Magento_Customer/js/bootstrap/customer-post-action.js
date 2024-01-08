@@ -1,0 +1,1 @@
+/var/www/html/magento3/vendor/magento/module-customer/view/adminhtml/web/js/bootstrap/customer-post-action.js

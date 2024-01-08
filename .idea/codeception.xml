@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Codeception">
+    <option name="configurations">
+      <list>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-asserts/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-sequence/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/magento/magento2-functional-testing-framework/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-webdriver/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-asserts/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-sequence/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/magento/magento2-functional-testing-framework/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-webdriver/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-sequence/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/magento/magento2-functional-testing-framework/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-asserts/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-sequence/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/magento/magento2-functional-testing-framework/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-asserts/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-webdriver/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-asserts/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/magento/magento2-functional-testing-framework/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-sequence/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-webdriver/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-sequence/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/magento/magento2-functional-testing-framework/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-asserts/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-webdriver/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="namespace" value="Qameta\Allure\Codeception\Test" />
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/allure-framework/allure-codeception/test/codeception" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/csharpru/vault-php/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-sequence/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-asserts/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/magento/magento2-functional-testing-framework/tests" />
+        </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/vendor.bk/codeception/module-webdriver/tests" />
+        </Configuration>
+      </list>
+    </option>
+  </component>
+</project>

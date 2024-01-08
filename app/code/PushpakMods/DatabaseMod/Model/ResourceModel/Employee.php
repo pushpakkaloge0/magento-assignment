@@ -10,5 +10,4 @@ class Employee extends AbstractDb{
     }
 }
 
-
 ?>

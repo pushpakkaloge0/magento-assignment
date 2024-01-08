@@ -1,0 +1,25 @@
+{
+    "table1": {
+        "column": {
+            "id": true,
+            "name": true,
+            "description": true,
+            "is_enabled": true,
+            "price": true,
+            "created_on": true,
+            "updated_on": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "table2": {
+        "column": {
+            "id": true,
+            "name": true
+        },
+        "constraint": {
+            "TABLE2_ID_TABLE1_ID": true
+        }
+    }
+}

@@ -350,12 +350,18 @@ return [
         'PayPal_BraintreeGraphQl' => 1,
         'PushpakMods_AccessControllerMod' => 1,
         'PushpakMods_DatabaseMod' => 1,
+        'PushpakMods_DeclarativeSchema' => 1,
+        'PushpakMods_EStory4' => 0,
         'PushpakMods_HelloWorld' => 1,
         'PushpakMods_HtmlBlock' => 1,
         'PushpakMods_ObserverMod' => 1,
         'PushpakMods_Price60' => 1,
         'PushpakMods_RedirectMod' => 1,
+        'PushpakMods_Story1' => 0,
+        'PushpakMods_Story12' => 0,
         'PushpakMods_Story9' => 1,
+        'Pyxl_Core' => 0,
+        'Pyxl_SmartyStreets' => 0,
         'Temando_ShippingRemover' => 1
     ]
 ];
